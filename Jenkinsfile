@@ -5,7 +5,7 @@ pipeline {
     stage('Checkout') {
       steps {
         deleteDir() // Optional: Clear workspace
-        git branch: 'main', url: 'https://github.com/ZuhailiAminUOB/Simple_Calculator.git'
+        git branch: 'main', url: 'https://github.com/wongtongyannn/Simple_Calculator.git'
       } 
     }
     stage('Install Dependencies') {
