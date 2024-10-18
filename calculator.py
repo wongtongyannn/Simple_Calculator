@@ -1,3 +1,5 @@
+and if your calculator.py faces some issues later on during the build, use my edited code:
+
 import argparse
 
 # Define basic arithmetic functions
@@ -29,7 +31,7 @@ def calculator(operation, num1, num2):
         print("Invalid input")
 
 # The main section of the script
-if __name__ == "__main__":
+if name == "__main__":
     parser = argparse.ArgumentParser(description="Simple Calculator")
 
     # Define the arguments the script will accept
