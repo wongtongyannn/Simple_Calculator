@@ -1,5 +1,3 @@
-and if your calculator.py faces some issues later on during the build, use my edited code:
-
 import argparse
 
 # Define basic arithmetic functions
